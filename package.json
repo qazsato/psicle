@@ -1,0 +1,11 @@
+{
+  "name": "psicle",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node psicle.js"
+  },
+  "dependencies": {
+    "psi": "3.0.0"
+  }
+}
