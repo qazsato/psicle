@@ -2,6 +2,8 @@
 
 Page Speed Insightsを複数URL同時実行するCLIツールです。
 
+![psicle](https://raw.githubusercontent.com/wiki/qazsato/psicle/psicle.png)
+
 ## How to use
 
 1. リポジトリをクローンして、node_modulesをインストールする
