@@ -1,6 +1,10 @@
+const asciify  = require('asciify');
+const inquirer = require('inquirer');
 const fs = require('fs');
 const psi = require('psi');
 const csvSync = require('csv-parse/lib/sync');
+
+asciify('PSICLE', {font: 'small'}, (err, msg) => console.log(msg));
 
 const file = './data/input.csv';
 let data = fs.readFileSync(file);
