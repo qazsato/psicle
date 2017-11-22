@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node psicle.js"
+    "psicle": "node psicle.js"
   },
   "dependencies": {
     "asciify": "1.3.5",
