@@ -1,0 +1,14 @@
+[
+  {
+    "type" : "list",
+    "name" : "strategy",
+    "message" : "Strategy to use when analyzing the page.",
+    "choices" : ["mobile", "desktop"]
+  },
+  {
+    "type": "input",
+    "name": "locale",
+    "message": "Locale results should be generated in.",
+    "default": "ja_JP"
+  }
+]
