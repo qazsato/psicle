@@ -31,7 +31,7 @@ function executePsi(options) {
         'URL': value.id,
         'Strategy': 'mobile',
         'Speed': ruleGroups.SPEED.score,
-        'Usability': ruleGroups.USABILITY.score,
+        'Usability': ruleGroups.USABILITY ? ruleGroups.USABILITY.score: '',
         'CSS size': pageStats.cssResponseBytes,
         'HTML size': pageStats.htmlResponseBytes,
         'Image size': pageStats.imageResponseBytes,
