@@ -29,7 +29,7 @@ function executePsi(options) {
       const ruleResults = value.formattedResults.ruleResults;
       const result = {
         'URL': value.id,
-        'Strategy': 'mobile',
+        'Strategy': options.strategy,
         'Speed': ruleGroups.SPEED.score,
         'Usability': ruleGroups.USABILITY ? ruleGroups.USABILITY.score: '',
         'CSS size': pageStats.cssResponseBytes,
